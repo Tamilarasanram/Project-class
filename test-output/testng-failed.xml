@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="loc" value="Sydney"/>
+    <parameter name="password" value="password"/>
+    <parameter name="roomNo" value="2 - Two"/>
+    <parameter name="hotel" value="Hotel Creek"/>
+    <parameter name="adult" value="3 - Three"/>
+    <parameter name="room" value="Deluxe"/>
+    <parameter name="username" value="tamilram"/>
+    <parameter name="child" value="3 - Three"/>
+    <classes>
+      <class name="org.test.AdactinTestNG">
+        <methods>
+          <include name="bookHotel"/>
+          <include name="beforeClass"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- org.test.AdactinTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

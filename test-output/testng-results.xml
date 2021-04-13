@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16091" started-at="2021-04-08T11:22:29Z" finished-at="2021-04-08T11:22:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16091" started-at="2021-04-08T11:22:29Z" finished-at="2021-04-08T11:22:45Z">
+      <class name="org.test.AdactinTestNG">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.test.AdactinTestNG@6a4f787b]" name="beforeClass" is-config="true" duration-ms="8964" started-at="2021-04-08T11:22:29Z" finished-at="2021-04-08T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:1, instance:org.test.AdactinTestNG@6a4f787b]" name="tc1" duration-ms="1425" started-at="2021-04-08T11:22:38Z" finished-at="2021-04-08T11:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamilram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="screenshot(java.lang.reflect.Method)[pri:0, instance:org.test.AdactinTestNG@6a4f787b]" name="screenshot" is-config="true" duration-ms="624" started-at="2021-04-08T11:22:40Z" finished-at="2021-04-08T11:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.test.AdactinTestNG.tc1(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="searchHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:org.test.AdactinTestNG@6a4f787b]" name="searchHotel" duration-ms="1517" started-at="2021-04-08T11:22:40Z" finished-at="2021-04-08T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method status="PASS" signature="screenshot(java.lang.reflect.Method)[pri:0, instance:org.test.AdactinTestNG@6a4f787b]" name="screenshot" is-config="true" duration-ms="550" started-at="2021-04-08T11:22:42Z" finished-at="2021-04-08T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.test.AdactinTestNG.searchHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="selectHotel()[pri:3, instance:org.test.AdactinTestNG@6a4f787b]" name="selectHotel" duration-ms="878" started-at="2021-04-08T11:22:42Z" finished-at="2021-04-08T11:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method status="PASS" signature="screenshot(java.lang.reflect.Method)[pri:0, instance:org.test.AdactinTestNG@6a4f787b]" name="screenshot" is-config="true" duration-ms="515" started-at="2021-04-08T11:22:43Z" finished-at="2021-04-08T11:22:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.test.AdactinTestNG.selectHotel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="bookHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:org.test.AdactinTestNG@6a4f787b]" name="bookHotel" duration-ms="1113" started-at="2021-04-08T11:22:44Z" finished-at="2021-04-08T11:22:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567898745612]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2012]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotel -->
+        <test-method status="PASS" signature="screenshot(java.lang.reflect.Method)[pri:0, instance:org.test.AdactinTestNG@6a4f787b]" name="screenshot" is-config="true" duration-ms="413" started-at="2021-04-08T11:22:45Z" finished-at="2021-04-08T11:22:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.test.AdactinTestNG.bookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- org.test.AdactinTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+    
+      <class name="org.test.AdactinTestNG"/>
+      
+      <parameter name="username" value="tamilram"></parameter>
+       <parameter name="password" value="password"></parameter>
+       
+       <parameter name="loc" value="Sydney"></parameter>
+       <parameter name="hotel" value="Hotel Creek"></parameter>
+       <parameter name="room" value="Deluxe"></parameter>
+       <parameter name="roomNo" value="2 - Two"></parameter>
+       <parameter name="adult" value="3 - Three"></parameter>
+       <parameter name="child" value="3 - Three"></parameter>
+       
+       <parameter name="firstname" value="tamil"></parameter>
+       <parameter name="lastname" value="ram"></parameter>
+       <parameter name="address" value="chennai"></parameter>
+       <parameter name="cardNo" value="1234567898745612"></parameter>
+       <parameter name="cardtype" value="VISA"></parameter>
+       <parameter name="month" value="January"></parameter>
+       <parameter name="year" value="2012"></parameter>
+       <parameter name="cvv" value="456"></parameter>
+       
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
