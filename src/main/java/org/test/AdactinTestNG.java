@@ -10,14 +10,17 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class AdactinTestNG extends BaseClass {
-
+     
 	BaseClass b = new BaseClass();
+	
 
 	@BeforeClass
 	private void beforeClass() {
 		b.getDriver();
 		b.launchurl("https://adactinhotelapp.com/");
-		b.maximize();
+        b.maximize();
+        
+        System.out.println("changes are made");
 	}
 
 	@AfterMethod
